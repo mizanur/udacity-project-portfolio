@@ -2,28 +2,86 @@
 <html>
 <head>
   <title></title>
-  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Amiko:400,700|Quicksand:300" rel="stylesheet">  
   <link rel="stylesheet" type="text/css" href="vendors/bootstrap-3.3.7-dist/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="vendors/bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  
+  <script type="text/javascript" src="vendors/jquery-3.1.1.js"></script>
   <script type="text/javascript" src="vendors/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<header>
-  <nav>
+  <div class="container">
 
-  </nav>
-</header>
+    <header class="header">
+      <section class="col-xs-12 col-sm-6">
+        <!-- logo -->
+        <a href="/">
+          <picture>
+            <source class="logo" srcset="images/logo.svg" type="image/svg+xml">
+            <img class="logo" src="images/logo.png" alt="logo">
+          </picture>
+        </a>      
+      </section>
 
-<section>
-  
+        
+      
+      <!-- developer intro -->
+      <section class="col-xs-12 col-sm-6 developer-title">
+        <h1 class="section-title text-right">Mizanur Chowdhury</h1>
+        <p class="section-sub-title text-right" >Front-end Web Devloper</p>
+      </section>
+    </header>
 
-</section>
+    <hr>
 
+    <!-- hero -->
+    <section>
+      <picture class="hero">
+        <source media="(min-width: 767px)" srcset="images/captivate.jpg">
+        <source media="(max-width: 767px)"
+                srcset="images/captivate-mobile.jpg">        
+        <img src="images/captivate.jpg">
+      </picture>
 
-<section>
-  
-</section>
+    </section>
+
+    <!-- featured work -->
+    <section class="feature">
+      <h1 class="section-title">Featured Work</h1>
+      <aside>
+        <div class="col-xs-12 col-sm-4">
+          <a class="section-link" href="https://github.com/udacity/Appify/">
+            <img src="images/appify.jpg" alt="appify" class="feature-image">
+            <h2 class="work-title">Appify</h2>
+            <span class="sub-link text-uppercase">https://github.com/udacity/Appify/</span>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <a class="section-link" href="https://github.com/udacity/Appify/">        
+            <img src="images/sunflower.jpg" alt="sunflower" class="feature-image">
+            <h2 class="work-title">Sunflower</h2>
+            <span class="sub-link text-uppercase">https://github.com/udacity/Sunflower/</span>
+          </a>
+        </div> 
+        <div class="col-xs-12 col-sm-4">
+          <a class="section-link" href="https://github.com/udacity/Bokeh/">
+            <img src="images/bokeh.jpg" alt="bokeh" class="feature-image">
+            <h2 class="work-title">Bokeh</h2>
+            <span class="sub-link text-uppercase">https://github.com/udacity/Bokeh/</span>            
+          </a>
+        </div> 
+
+      </aside>
+    </section>  
+    
+    <footer class="footer text-uppercase text-center">
+      Handcrafted by Mizanur Chowdhury for Udacity Frontend Development Nanodegree
+    </footer>
+
+  </div>
+
 
 </body>
 </html>

@@ -1,0 +1,91 @@
+/*
+font-family: 'Quicksand', sans-serif;
+font-family: 'Amiko', sans-serif;
+*/
+body {
+  background-color:#1f1f1f !important;
+  color:white;
+}
+
+html, body, p, span {
+  font-family: 'Amiko', sans-serif;
+  font-weight:400;
+}
+
+.header, .work-title, .section-title {
+  font-family: 'Quicksand', sans-serif;
+  font-weight:300;
+}
+
+.hero {
+  width:100%;
+}
+
+.hero img, .feature-image {
+  width:100%;
+}
+
+.feature{
+  display:inline-block;
+  width:100%;
+}
+
+.section-title {
+  font-size: 60px;
+  letter-spacing: -5px;
+}
+
+.section-sub-title {
+  font-weight:700;
+  text-transform: uppercase;
+}
+
+.section-link {
+  color:#a9acae;
+}
+
+.sub-link{
+  font-size:11px;
+  font-weight:700;
+}
+.section-link:hover {
+  color:white;
+  text-decoration: none;
+}
+
+.header {
+  margin:40px 0 20px 0;
+  display: inline-block;
+  width:100%;
+}
+
+.footer {
+  margin:40px 0 20px 0;
+  font-size:0.7em;
+  color:#a9acae;
+}
+
+@media screen and (max-width:767px) {
+  .section-title {
+    font-size:40px;
+    letter-spacing: normal;
+  }
+
+  .logo {
+    max-width:200px;
+    margin:auto;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .header .text-right {
+    text-align: center;
+    margin:40px 0 0 0;
+  }
+
+  .header p {
+    margin:0;
+  }
+}
