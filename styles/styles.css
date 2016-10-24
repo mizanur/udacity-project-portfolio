@@ -65,6 +65,8 @@ html, body, p, span {
   color:#a9acae;
 }
 
+
+
 @media screen and (max-width:767px) {
   .section-title {
     font-size:40px;
@@ -84,6 +86,12 @@ html, body, p, span {
     text-align: center;
     margin:40px 0 0 0;
   }
+
+  .work{
+    margin:15px 0 15px 0;
+    padding:0 0 15px 0;
+    border-bottom:1px solid #a9acae;
+  }  
 
   .header p {
     margin:0;
