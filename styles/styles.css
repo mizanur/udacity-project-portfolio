@@ -65,8 +65,6 @@ html, body, p, span {
   color: #a9acae;
 }
 
-
-
 @media screen and (max-width:767px) {
   .section-title {
     font-size: 40px;
